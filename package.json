@@ -1,6 +1,6 @@
 {
   "name": "@ruminant/sorting-hat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -39,6 +39,5 @@
     "rollup-plugin-terser": "^7.0.0",
     "rollup-plugin-typescript2": "^0.27.2",
     "typescript": "^4.0.2"
-  },
-  "private": false
+  }
 }
