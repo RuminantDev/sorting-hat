@@ -1,0 +1,44 @@
+{
+  "name": "@ruminant/sorting-hat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "browser": "dist/index.bundle.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuminantDev/sorting-hat.git"
+  },
+  "keywords": [
+    "NPM",
+    "sort",
+    "split testing",
+    "phased rollout",
+    "A/B Testing",
+    "feature flags",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "author": "Ryan Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RuminantDev/sorting-hat/issues"
+  },
+  "homepage": "https://github.com/RuminantDev/sorting-hat#readme",
+  "dependencies": {
+    "murmurhash": "^1.0.0",
+    "rollup": "^2.26.4",
+    "rollup-plugin-terser": "^7.0.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "typescript": "^4.0.2"
+  },
+  "private": false
+}
